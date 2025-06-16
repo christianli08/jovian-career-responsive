@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>My First Web Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="navbar">
+        <img id="logo" src="jovian logo.png" alt="Jovian logo">
+    </div>
+    <img id="banner" src="banner.jpg" alt="banner logo for my first website" height="240">
+
+    <div>
+
+        <h1>
+            About Jovian
+        </h1>
+
+        <div id="about">
+
+            <div id="description">
+                <p style="margin-top: 0;">
+                    At Jovian, we're on a mission to build the world's most highly
+                    reputed technical university, and we're building it completely online.
+                    We offer several beginner-friendly courses that have been taken by 300,000+
+                    registered users.
+                </p>
+
+                <p>We also offer 2 industry-focused bootcamps:</p>
+                <ol>
+                    <li>
+                        <a href="https://jovian.com/full-stack-developer-bootcamp" target="_blank">
+                            Jovian Full Stack Developer Bootcamp
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://jovian.com/learn/web-development-with-html-and-css" target="_blank">
+                            Jovian Data Scientist Bootcamp
+                        </a>
+                    </li>
+                </ol>
+            </div>
+
+            <div id="team">
+                <img id="team-image" src="team.jpg" alt="Jovian team">
+            </div>
+
+
+
+        </div>
+
+
+        <div id="jobs">
+
+            <h2>Job Opportunities</h2>
+            <div>
+                <table id="jobs-table">
+                    <tr class="jobs-header-row">
+                        <th rowspan="2">Job Title</th>
+                        <th colspan="2"> Location</th>
+                        <th rowspan="2"> Salary </th>
+                        <th rowspan="2"> Posted on</th>
+                    </tr>
+
+                    <tr class="jobs-header-row">
+                        <th>City</th>
+                        <th>Country</th>
+
+                    </tr>
+
+                    <tr class="jobs-data-row">
+                        <td>Frontend Developer </td>
+                        <td>Mandaluyong</td>
+                        <td>Philippines</td>
+                        <td>₱15,000</td>
+                        <td>Jun 3, 2025</td>
+                    </tr>
+                    <tr class="jobs-data-row">
+                        <td>Full Stack Developer </td>
+                        <td>New York</td>
+                        <td>USA</td>
+                        <td>₱30,000</td>
+                        <td>Jun 3,2025</td>
+                    </tr>
+
+                    <tr class="jobs-data-row">
+                        <td>Data Scientist</td>
+                        <td>Manila Bay</td>
+                        <td>Philippines</td>
+                        <td>₱45,000</td>
+                        <td>Dec 25,2025</td>
+                    </tr>
+
+                    <tr class="jobs-data-row">
+                        <td>Machine Learning Engineer</td>
+                        <td colspan="2">Remote</td>
+                        <td>₱68,000</td>
+                        <td>Jan 1, 2026</td>
+                    </tr>
+
+
+                </table>
+            </div>
+
+        </div>
+
+        <h2>Submit your application</h2>
+        <div id="application">
+
+            <form id="application-form" action="https://formbold.com/s/oDrnJ" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="Full Name" required placeholder="John Doe"><br>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email address" required placeholder="jdoe@example.com"><br>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label><br>
+                    <input type="number" id="phone" name="phone number" placeholder="09888888888" required><br>
+                </div>
+
+                <div class="form-group">
+                    <label for="birthdate">Date of Birth:</label><br>
+                    <input type="date" id="birthdate" name="birthdate" required><br>
+                </div>
+
+                <div class="form-group">
+                    <label for="position">Position Applied for</label><br>
+                    <select id="position" name="position applied" required><br>
+                        <option value="">Select Position</option>
+                        <option value="Frontend Developer">Frontend Developer</option>
+                        <option value="Full Stack Developer">Full Stack Developer</option>
+                        <option value="Data Scientist">Data Scientist</option>
+                        <option value="MLEngineering">Machine Learning Engineer</option>
+
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="resume">Submit a resume</label><br>
+                    <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="cover letter">Cover Letter:</label><br>
+                    <textarea id="cover letter" name="cover letter" rows="5" placeholder="What makes you a good fit for this position?"
+                    required ></textarea>
+                </div>
+
+                <div class="form-group">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree and understand the terms and conditions</label>
+                    
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Submit application">
+                </div>
+
+            </form>
+
+        </div>
+
+        <div id="footer">
+            <ul id="footer-links">
+                <li>
+                    <a href="https://jovian.com/learn" target="_blank">Courses</a>
+                </li>
+
+                <li>
+                    <a href="https://jovian.com/learn" target="_blank">Programs</a>
+
+                </li>
+
+                <li>
+                    <a href="https://www.youtube.com/@jovianhq" target="_blank">Youtube</a>
+
+                </li>
+
+            </ul>
+
+            <div id="copyright">
+                <span>©2025, Jovian</span>
+            </div>
+
+
+        </div>
+
+
+
+</body>
+
+
+</html>
