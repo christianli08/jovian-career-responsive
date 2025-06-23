@@ -17,14 +17,16 @@
 <body>
 
     <div id="navbar">
-        <img id="logo" src="jovian logo.png" alt="Jovian logo">
+        <img id="logo" src="https://i.imgur.com/JRA5Q8a.png" alt="jovian logo" height="30px"
+            referrerpolicy="no-referrer">
+        <img id="logo-with-text" src="jovian logo.png" alt="Jovian logo with text">
     </div>
-    <img id="banner" src="banner.jpg" alt="banner logo for my first website" height="240">
+    <img id="banner" src="banner.jpg" alt="banner logo for my first website">
 
     <div>
 
         <h1>
-            Welcome back to Jovian
+            About Jovians
         </h1>
 
         <div id="about">
@@ -63,7 +65,44 @@
 
         <div id="jobs">
 
-            <h2>Job Opportunities</h2>
+            <h2>Employment Opportunities</h2>
+            <div id="jobs-list">
+                <div class="job">
+                    <div class="job-title">Frontend Developer</div>
+                    <div class="job-detail">Mandaluyong</div>
+                    <div class="job-detail">Philippines</div>
+                    <div class="job-detail">₱15,000</div>
+                    <div class="job-detail">Posted 5 days ago</div>
+                </div>
+
+                <div class="job">
+                    <div class="job-title">Full-stack Developer</div>
+                    <div class="job-detail">New york</div>
+                    <div class="job-detail">USA</div>
+                    <div class="job-detail">₱30,000</div>
+                    <div class="job-detail">Posted 5 days ago</div>
+                </div>
+
+                <div class="job">
+                    <div class="job-title">Data Scientist</div>
+                    <div class="job-detail">Manila Bay</div>
+                    <div class="job-detail">Philippines</div>
+                    <div class="job-detail">₱45,000</div>
+                    <div class="job-detail">Posted 3 days ago</div>
+                </div>
+
+                <div class="job">
+                    <div class="job-title">Machine Learning Engineer</div>
+                    <div class="job-detail">Remote</div>
+                    <div class="job-detail">₱68,000</div>
+                    <div class="job-detail">Posted 15 days ago</div>
+                </div>
+            </div>
+
+
+
+
+
             <div>
                 <table id="jobs-table">
                     <tr class="jobs-header-row">
@@ -118,7 +157,8 @@
         <h2>Submit your application</h2>
         <div id="application">
 
-            <form id="application-form" action="https://formbold.com/s/oDrnJ" method="POST" enctype="multipart/form-data">
+            <form id="application-form" action="https://formbold.com/s/oDrnJ" method="POST"
+                enctype="multipart/form-data">
                 <div class="form-group">
                     <label for="name">Full Name:</label><br>
                     <input type="text" id="name" name="Full Name" required placeholder="John Doe"><br>
@@ -158,14 +198,14 @@
 
                 <div class="form-group">
                     <label for="cover letter">Cover Letter:</label><br>
-                    <textarea id="cover letter" name="cover letter" rows="5" placeholder="What makes you a good fit for this position?"
-                    required ></textarea>
+                    <textarea id="cover letter" name="cover letter" rows="5"
+                        placeholder="What makes you a good fit for this position?" required></textarea>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group-checkbox">
                     <input type="checkbox" id="terms" name="terms" required>
                     <label for="terms">I agree and understand the terms and conditions</label>
-                    
+
                 </div>
 
                 <div class="form-group">
